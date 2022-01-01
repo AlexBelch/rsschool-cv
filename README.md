@@ -6,4 +6,4 @@
 
 ## HTML&CSS CV
 
-# [https://alexbelch.github.io/rsschool-cv](https://alexbelch.github.io/rsschool-cv)
+# [https://alexbelch.github.io/rsschool-cv/](https://alexbelch.github.io/rsschool-cv/)
