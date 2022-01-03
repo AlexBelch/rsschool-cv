@@ -24,40 +24,62 @@
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.1/dist/semantic.min.js"></script>
   </head>
   <body>
+    <header class="headercv">
+      <nav>
+        <ul class="headercv-menu">
+          <li class="headercv-menu-item"><a href="#contacts">Contacts</a></li>
+          <li class="headercv-menu-item"><a href="#about-me">About me</a></li>
+          <li class="headercv-menu-item">
+            <a href="#experience">Experience</a>
+          </li>
+          <li class="headercv-menu-item"><a href="#education">Education</a></li>
+          <li class="headercv-menu-item"><a href="#skills">Skills</a></li>
+          <li class="headercv-menu-item"><a href="#code-example">Code</a></li>
+          <li class="headercv-menu-item"><a href="#social">Social</a></li>
+          <li class="headercv-menu-item">
+            <a href="#code-example">Code Example</a>
+          </li>
+          <li class="headercv-menu-item">
+            <a href="#work-examples">Work Examples</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <main class="main">
       <div class="ui page grid">
         <div class="row"></div>
         <div class="ui ten wide column segment" style="margin-bottom: 0px">
           <h1>OLEKSANDR BELCHYTSKYI</h1>
-          <h5>SOFTWARE DEVELOPER</h5>
+          <h2>SOFTWARE DEVELOPER</h2>
           <div class="ui divider"></div>
-          <div class="ui list">
-            <div class="item">
+          <h3 id="contacts">CONTACTS</h3>
+          <ul class="ui list">
+            <li class="item">
               <div class="ui label"><i class="home icon"></i> Address:</div>
               <span>str. Breusa Odessa 67017 Ukraine</span>
-            </div>
-            <div class="item">
+            </li>
+            <li class="item">
               <div class="ui label"><i class="envelope icon"></i> Email:</div>
               <span>oleksandr.belchitskyi@gmail.com</span>
-            </div>
-            <div class="item">
+            </li>
+            <li class="item">
               <div class="ui label"><i class="mobile icon"></i> Phone:</div>
               <span>+380938494386</span>
-            </div>
-            <div class="item">
+            </li>
+            <li class="item">
               <div class="ui label">
                 <i class="telegram icon"></i> Telegram:
               </div>
               <span>@AlexBelch</span>
-            </div>
-            <div class="item">
+            </li>
+            <li class="item">
               <div class="ui label">
                 <i class="telegram icon"></i> Linkedin:
               </div>
               <span>alex-belchitskiy</span>
-            </div>
-          </div>
-          <h5>EXPERIENCE</h5>
+            </li>
+          </ul>
+          <h2 id="experience">EXPERIENCE</h2>
           <div class="ui divider"></div>
           <div class="ui list">
             <div class="item">
@@ -150,36 +172,56 @@
             and creative applications. My applications is always full of
             refreshing ideas.
           </p>
-          <h4 class="ui left floated horizontal header divider">SKILLS</h4>
-          <div class="label">Javascript</div>
-          <div class="ui inverted small progress">
-            <div class="bar" style="width: 65%"></div>
-          </div>
-          <div class="label">NodeJS</div>
-          <div class="ui inverted small progress">
-            <div class="bar" style="width: 60%"></div>
-          </div>
-          <div class="label">Git</div>
-          <div class="ui inverted small progress">
-            <div class="bar" style="width: 80%"></div>
-          </div>
-          <div class="label">DBA</div>
-          <div class="ui inverted small progress">
-            <div class="bar" style="width: 75%"></div>
-          </div>
-          <div class="label">Php/Sql</div>
-          <div class="ui inverted small progress">
-            <div class="bar" style="width: 55%"></div>
-          </div>
-          <div class="label">Angular, React</div>
-          <div class="ui inverted small progress">
-            <div class="bar" style="width: 40%"></div>
-          </div>
-          <div class="label">C#</div>
-          <div class="ui inverted small progress">
-            <div class="bar" style="width: 30%"></div>
-          </div>
-          <h4 class="ui left floated horizontal header divider">SOCIAL</h4>
+          <h4 id="skills" class="ui left floated horizontal header divider">
+            SKILLS
+          </h4>
+          <ul>
+            <li>
+              <div class="label">Javascript</div>
+              <div class="ui inverted small progress">
+                <div class="bar" style="width: 75%"></div>
+              </div>
+            </li>
+            <li>
+              <div class="label">NodeJS</div>
+              <div class="ui inverted small progress">
+                <div class="bar" style="width: 70%"></div>
+              </div>
+            </li>
+            <li>
+              <div class="label">Git</div>
+              <div class="ui inverted small progress">
+                <div class="bar" style="width: 85%"></div>
+              </div>
+            </li>
+            <li>
+              <div class="label">DBA/SQL</div>
+              <div class="ui inverted small progress">
+                <div class="bar" style="width: 75%"></div>
+              </div>
+            </li>
+            <li>
+              <div class="label">PHP</div>
+              <div class="ui inverted small progress">
+                <div class="bar" style="width: 50%"></div>
+              </div>
+            </li>
+            <li>
+              <div class="label">Angular, React</div>
+              <div class="ui inverted small progress">
+                <div class="bar" style="width: 60%"></div>
+              </div>
+            </li>
+            <li>
+              <div class="label">C#</div>
+              <div class="ui inverted small progress">
+                <div class="bar" style="width: 40%"></div>
+              </div>
+            </li>
+          </ul>
+          <h4 id="social" class="ui left floated horizontal header divider">
+            SOCIAL
+          </h4>
           <div class="ui list">
             <div class="item">
               <i class="github icon"></i>
@@ -209,30 +251,22 @@
       <div class="ui page grid">
         <div class="row"></div>
         <div class="ui ten wide column segment" style="margin-bottom: 0px">
-          <h1>OLEKSANDR BELCHYTSKYI</h1>
-          <h5>SOFTWARE DEVELOPER</h5>
+          <h2>OLEKSANDR BELCHYTSKYI</h2>
+          <h2>SOFTWARE DEVELOPER</h2>
           <div class="ui divider"></div>
-          <div class="ui list">
-            <div class="item">
-              <div class="ui label"><i class="home icon"></i> Address:</div>
-              <span>str. Breusa Odessa 67017 Ukraine</span>
-            </div>
-            <div class="item">
-              <div class="ui label"><i class="envelope icon"></i> Email:</div>
-              <span>belch@ukr.net</span>
-            </div>
-            <div class="item">
-              <div class="ui label"><i class="mobile icon"></i> Phone:</div>
-              <span>+380938494386</span>
-            </div>
-            <div class="item">
-              <div class="ui label">
-                <i class="telegram icon"></i> Telegram:
-              </div>
-              <span>Александр Бельчицкий (+380996298546)</span>
-            </div>
+          <h4 id="code-example">CODE EXAMPLE</h4>
+          <div class="ui divider"></div>
+          <div>
+            <pre class="code">
+            <code>
+  
+  function simpleMultiplication(number) {
+    return ( number & 1 ) ? number * 9 : number * 8;
+  }
+            </code>
+          </pre>
           </div>
-          <h5>EDUCATION</h5>
+          <h2 id="education">EDUCATION</h2>
           <div class="ui divider"></div>
           <div class="ui list">
             <div class="item">
@@ -342,6 +376,50 @@
               </div>
             </div>
           </div>
+          <h2 id="work-examples">WORK EXAMPLES</h2>
+          <div class="ui divider"></div>
+          <div class="item">
+            <nav class="works">
+              <ul>
+                <li>
+                  <a href="https://alexbelch.github.io/homepage/">Homepage</a>
+                </li>
+                <li>
+                  <a href="https://github.com/AlexBelch/FL-11"
+                    >Tasks for EPAM front-end lab</a
+                  >
+                </li>
+                <li>
+                  <a href="https://github.com/AlexBelch?tab=repositories"
+                    >Another code (github)</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <h2 id="languages">LANGUAGES</h2>
+          <div class="ui divider"></div>
+          <div class="ui list">
+            <div class="item">
+              <div class="language">
+                <div class="language-left"><h4>Russian:</h4></div>
+                <div><h4>native</h4></div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="language">
+                <div class="language-left"><h4>Ukrainian:</h4></div>
+                <div><h4>B2-C1</h4></div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="language">
+                <div class="language-left"><h4>English:</h4></div>
+                <div><h4>B1-B2</h4></div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="ui six wide column inverted segment">
           <img
@@ -349,7 +427,9 @@
             class="ui centered small circular image"
             src="./img/photo.jpeg"
           />
-          <h4 class="ui left floated horizontal header divider">ABOUT</h4>
+          <h4 id="about-me" class="ui left floated horizontal header divider">
+            ABOUT ME
+          </h4>
           <p>
             I am an ambitious software developer looking to progress into a
             senior position within the IT sector. I have developed communication
@@ -409,8 +489,8 @@
           <a href="https://rs.school/js/" target="_blank">
             <img
               src="img/rs_school_js.svg"
-              width="100px"
-              height="37px"
+              width="100"
+              height="37"
               alt="RS School"
             />
           </a>

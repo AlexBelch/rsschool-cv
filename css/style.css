@@ -2,9 +2,63 @@
   font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 
+.headercv {
+  background: lightgray;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.headercv-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.headercv-menu-item {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.headercv-menu-item a {
+  padding: 14px 10px;
+  line-height: 50px;
+  color: black;
+}
+
+.headercv-menu-item a:hover {
+  color: white;
+  background-color: gray;
+}
+
+.headercv-menu-item a:active {
+  background-color: lightgray;
+  color: black;
+  text-decoration: none;
+}
+
 .main {
-  width: 1200px;
+  width: 1400px;
   margin: auto;
+}
+
+.code {
+  background: lightgray;
+}
+
+.language {
+  display: flex;
+}
+
+.language-left {
+  width: 25%;
+  margin-right: 50px;
+}
+
+.works {
+  font-size: 16px;
 }
 
 .footer {
