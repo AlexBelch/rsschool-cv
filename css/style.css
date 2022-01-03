@@ -1,3 +1,31 @@
 * {
   font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
+
+.main {
+  width: 1200px;
+  margin: auto;
+}
+
+.footer {
+  background: lightgray;
+  margin-top: 20px;
+}
+
+.footer-wrap {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-github {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer-year {
+  font-size: 24px;
+  font-weight: bold;
+}
